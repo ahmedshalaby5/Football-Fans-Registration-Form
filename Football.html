@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+      <head>
+             <title> Football Fans Registration Form </title>
+      <style>
+             body {
+                    background-image: url('project.jpg');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed; 
+                    background-size: cover;
+                  }
+             h1 {text-align: center;}
+      </style>
+      </head>
+<body>
+       <h1 style = "color: gold ;" > Be Proud Of Your Team ! </h1>
+      <form action ="Football.php" method ="post">
+
+       <label for = "txtbox1" style ="color: white ;" > First Name:</label>
+       <input id = "txtbox1" type="text" name = "FirstName" max length = "30" placeholder = "Ahmed" required/>
+
+       <label for = "txtbox2" style="color: white ;"> Last Name:</label>
+       <input id = "txtbox2" type="text" name = "LastName" max length = "30" placeholder = "Shalaby" required/> <br/> <br/>
+
+       <label for = "Birthdate1" style="color: white ;"> Birthdate : </label>
+       <input id = "Birthdate1" type = "date" name = "date"> 
+
+       <label for = "Male" style="color: royalblue ;"> Male </label>
+       <input type = "radio" id ="male" name = "gender" value ="m" checked />
+
+       <label for = "Female" style="color: darksalmon ;" > Female </label>
+       <input type = "radio" id ="Female" name = "gender" value ="f" /> <br/> <br/>
+
+       <label for = "txtbox3"style="color: white ;" > Email:</label>
+       <input id = "txtbox3" type="text" name = "Email" max length = "30" placeholder = "Shalaby@gmail.com" required/>
+
+       <label for = "txtbox4"style="color: white ;"> Password:</label>
+       <input id = "txtbox4" type="text" name = "Password" required/> <br/> <br/>
+
+       <label for = "txtbox5"style="color: white ;"> Mobile Number:</label>
+       <input id = "txtbox5" type="text" name = "MobileNumber" size = "11" maxlength = "11" required/> <br/> <br/>
+
+       <label for = "txtbox6"style="color: white ;"> Favourite League:</label>
+       <input id = "txtbox6" type="text" name = "FavouriteLeague" max length = "30" placeholder = "Premier League" required/> <br/> <br/>
+
+       <label for = "txtbox7"style="color: white ;"> Favourite Team:</label>
+       <input id = "txtbox7" type="text" name = "FavouriteTeam" max length = "30" placeholder = "Liverpool" required/> <br/>
+
+              <p style="color: aqua ;"> Note : You Must Choose Team From The Same League You Have Chosen ! </p>
+
+       <label for = "txtbox8"style="color: white ;"> Favourite Player:</label>
+       <input id = "txtbox8" type="text" name = "FavouritePlayer" max length = "30" placeholder = "Salah" required/> <br/>
+ 
+              <p style="color: aqua ;"> Note : You Must Choose Player From The Same Team You Have Chosen ! </p>
+
+        <button type = "Submit" name = "submit" id = "submit" style="background-color: dodgerblue ;">
+                  Submit
+        </button>
+
+</body>
+</html>
+            
+
